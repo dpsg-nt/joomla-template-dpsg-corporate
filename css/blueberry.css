@@ -1,0 +1,125 @@
+/*
+ * jQuery Blueberry Slider v0.4 BETA
+ * http://marktyrrell.com/labs/blueberry/
+ *
+ * Copyright (C) 2011, Mark Tyrrell <me@marktyrrell.com>
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *	
+ * Modified for the DPSG Corporate Design Template by Jannik
+ */
+
+.blueberry { 
+	margin: 20px auto;
+}
+
+.blueberry .slides {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 5px 0px #ccc;
+    -moz-box-shadow: 0px 0px 5px 0px #ccc;
+    box-shadow: 0px 0px 5px 0px #ccc;
+    border: 10px solid #fff;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.blueberry ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.blueberry .slides li {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0 !important;
+    padding: 0;
+    width: 100% !important;
+}
+
+.blueberry .slides li img {
+    display: block;
+    max-width: none;
+    display: inline-block;
+    width: 100%;
+}
+.blueberry .slides li.active { display: block; position: relative; }
+.blueberry .crop li img { width: auto; }
+
+/* Headlines */
+.blueberry .slides hgroup {
+    position: absolute;
+    z-index: 2;
+    bottom: 0px;
+    left: 0px;
+    margin: 0;
+    padding: 0;
+}
+.blueberry .slides hgroup h2 {
+    background: rgba(255,255,255,0.7);
+    line-height: 16px;
+    position: absolute;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0.2em 0.4em;
+    font-size: 2.4em;
+}
+.blueberry .slides hgroup h2.headline01 {
+    bottom: 3em;
+    left: 1.5em;
+}
+.blueberry .slides hgroup h2.headline02 {
+    bottom: 1.5em;
+    left: 2.5em;
+}
+.blueberry .slides hgroup h2:hover {
+    text-decoration: underline;
+}
+
+/* Pager */
+.blueberry .pager {
+	height: auto;
+	text-align: center;
+}
+.blueberry .pager li {
+    display: inline-block;
+    margin: 0.2em auto;
+    display: inline-block;
+    padding: 5px 14px;
+    border: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.blueberry .pager li a {
+    color: #003056;
+    text-decoration: none;
+    border: 0;
+    background: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+	padding: 5px 14px;
+	width: auto;
+	height: auto;
+}
+.blueberry .pager li a:hover {
+    text-decoration: underline;
+}
+.blueberry .pager li.active a { color: #b5152b; }

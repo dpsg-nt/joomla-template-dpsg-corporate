@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 3.2//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="3.2" type="template" client="site">
+	<name>dpsg_corporate</name>
+	<version>2.0</version>
+	<creationDate>03/15/2014</creationDate>
+	<author>Jannik Falkner, Jakob Jarosch</author>
+	<authorEmail>website@dpsg-nuertingen.de</authorEmail>
+	<authorUrl>http://www.dpsg-nuertingen.de</authorUrl>
+	<copyright>COPYRIGHT 2016 DPSG NT</copyright>
+	<license>Private use only!</license>
+	<description>Clear templated, imitates the original DPSG corporate design.</description>
+	
+	<files>
+		<folder>css</folder>
+		<folder>fonts</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<filename>component.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>design_tools.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_thumbnail.png</filename>
+	</files>
+	
+	<positions>
+		<position>top</position>
+		<position>top_left</position>
+		<position>top_right</position>
+		<position>headmenu</position>
+		<position>left</position>
+		<position>right</position>
+		<position>breadcrumb</position>
+		<position>advert</position>
+		<position>footmenu</position>
+		<position>social</position>
+		<position>footer</position>
+		<position>debug</position>
+	</positions>
+	
+	<languages>
+	</languages>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+				<field name="sitetitle"  type="text" default=""
+					label="Seitentitel"
+					description="Bitte hier den Stammesnamen eingeben"
+					filter="string" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

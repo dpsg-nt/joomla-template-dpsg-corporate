@@ -1,0 +1,101 @@
+.snk-termine{
+	width: 100%;
+	background: white;
+}
+.snk-termine table{
+	width: 100%;
+	border-spacing: 0;
+}
+
+.snk-termine table td {
+	margin: 0;
+}
+
+tr.snk-eintrag-tr,
+tr.snk-termin-link-opened {
+	cursor: pointer;
+}
+
+tr.snk-eintrag-tr:hover,
+tr.snk-termin-link-opened {
+	background-color: #e5eaee;
+}
+
+.snk-termine th.snk-monat-heading {
+	background-color: #ccd6dd;
+	font-size: 16px;
+	padding: 8px;
+	text-align: left;
+	font-weight: normal;
+}
+
+tr.snk-headings-row {
+	background-color: #66839a;
+}
+tr.snk-headings-row:hover {
+	background-color: #4c6e88;
+}
+
+tr.snk-headings-row th {
+	background-color: transparent;
+	line-height: 120%;
+	padding: 8px;
+	font-size: 16px;
+	color: white;
+	line-height: 24px;
+	border-bottom: 3px solid #ccd6dd;
+}
+.snk-termine th{
+	text-align: left;
+	background-color: #F59705;
+	line-height: 90%;
+	padding: 5px;
+}
+.snk-termine td{
+	padding-right: 5px;
+	vertical-align: top;
+}
+
+.snk a, .snk a:link, .snk a:visited, .snk a:focus, .snk a:hover {
+	color: #b5152b;
+	text-decoration:underline;
+}
+
+.snk a.snk-termin-link-opened, .snk a:active{
+	 text-decoration:underline;
+}
+
+.snk-termin-infos {
+	display: none;
+	font-size: 16px;
+	color: #1a1a1a;
+}
+.snk-termin-infos td {
+	padding: 8px;
+	border-top: 1px solid #b2c0cc;
+	line-height: 24px;
+}
+
+.snk-termin-infos dl {
+	margin-bottom: 20px;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+.snk-termin-infos dt, .snk-termin-infos dd {
+	float: left;
+	clear: left;
+}
+.snk-termin-infos dt {
+	width: 100px;
+	margin-right: 10px;
+	font-weight: bold;
+}
+
+.snk-eintrag-datum, .snk-eintrag-zeit, .snk-eintrag-titel, .snk-eintrag-stufe, .snk-eintrag-kategorien {
+	border-top: 1px solid #b2c0cc;
+	line-height: 24px;
+	padding: 8px;
+	text-align: left;
+	vertical-align: top;
+}

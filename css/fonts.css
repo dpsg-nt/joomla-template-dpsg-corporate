@@ -1,0 +1,145 @@
+@font-face {
+	font-family: 'icomoon';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/icomoon.woff') format('woff');
+}
+@font-face {
+	font-family: 'The Serif';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/Bitter_400.woff') format('woff');
+}
+@font-face {
+	font-family: 'The Serif';
+	font-weight: bold;
+	font-style: normal;
+	src: url('../fonts/Bitter_700.woff') format('woff');
+}
+@font-face {
+	font-family: 'The Serif';
+	font-weight: normal;
+	font-style: italic;
+	src: url('../fonts/Bitter_400i.woff') format('woff');
+}
+@font-face {
+	font-family:'icomoon';
+	src:url("../fonts/icomoon.eot");
+	src:url("../fonts/icomoon.eot?#iefix") format("embedded-opentype"),url("../fonts/icomoon.woff") format("woff"),url("../fonts/icomoon.ttf") format("truetype");
+	font-weight:normal;
+	font-style:normal
+}
+
+a.icomoon{
+	font-family: "icomoon";
+    speak: none;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    text-decoration: none;
+	color: #003056;
+	font-size: 32px;
+}
+
+a.icomoon-facebook:before {
+  content: "\E092";
+}
+a.icomoon-gplus:before {
+  content: "\E08F";
+}
+
+
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: #1a1a1a;
+}
+
+a {
+	color: #b5152b;
+	text-decoration: underline;
+}
+
+a img {
+	background-color: #FFFFFF;
+}
+
+img {
+	border: 0;
+}
+
+/* From the original css file
+h1,h2,h3,h4,h5,h6{margin:10px 0;font-family:inherit;font-weight:bold;line-height:20px;color:inherit;text-rendering:optimizelegibility}
+h1,h2,h3{line-height:40px}
+h1{font-size:38.5px}
+h2{font-size:31.5px}
+h3{font-size:24.5px}
+h4{font-size:17.5px}
+h5{font-size:14px}
+h6{font-size:11.9px}
+*/
+
+
+h1, h2, h3, h4, h5, h6,
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	margin: 0;
+	color: #003056;
+	font-family: 'The Serif', serif;
+	line-height: 120%;
+	clear: both;
+}
+
+h4, h4 a {
+	font-weight: normal;
+}
+
+h1, h1 a, h3, h3 a {
+	font-weight: bold;
+	margin-top: 3.2px;
+}
+
+h1, h1 a{
+	font-size: 33.6px;
+	line-height: 1em;
+	line-height: 120%;
+	margin: 16.8px 0 16.8px 0;
+}
+
+h2, h2 a,
+.categories-list > div h3,
+.categories-list > div h3 a {
+	font-size: 33.6px;
+	color: #003056;
+	margin: 16.8px 0 16.8px 0;
+	font-weight: normal;
+	text-decoration: none;
+}
+.categories-list > div h3 a:hover {
+	text-decoration: underline;
+}
+
+h3, h3 a, 
+h4, h4 a {
+	margin: 12.8px 0 12.8px 0;
+	font-size: 25.6px;
+}
+
+div#main_right h3 {
+	font-size: 18px;
+}
+
+.gallery h2 {
+	font-weight: bold;
+}
+.blog .subheading-category {
+	font-weight: bold;
+}
+
+p {
+	line-height: 24px;
+	font-size: 16px;
+	margin: 0 0 10px;
+	color: #1a1a1a;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+

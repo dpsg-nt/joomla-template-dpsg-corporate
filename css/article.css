@@ -1,0 +1,85 @@
+table.colored {
+	border: 1px solid #ddd;
+	border-bottom-width: 0;
+	border-spacing: 0;
+}
+table.colored tr:nth-of-type(even) td {
+	background-color: transparent;
+	border-bottom: 1px solid #ddd;
+}
+table.colored tr:nth-of-type(odd) td {
+	background-color: #fff;
+	border-bottom: 1px solid #ddd;
+}
+table.colored td {
+	padding: 0 3px;
+	margin: 0;
+}
+table.colored td p {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	margin-left: 20px;
+}
+
+
+/* Quote */
+blockquote {
+	background: #fff;
+	border: 0;
+	margin: 0.5em 0 0.5em 0;
+	padding: 1em 1em 1em 5em;
+	position: relative;
+	font-size: 1.1em;
+	font-style: italic;
+	color: #003056;
+	line-height: 1.2em;
+	min-height: 50px;
+}
+blockquote:before {
+	content: "\201E";
+	font-size: 141px;
+	line-height: 0px;
+	position: absolute;
+	top: -30px;
+	left: 14px;
+	color: #99acbb;
+	font-family: Century;
+	font-style: normal;
+	width: 70px;
+	
+}
+blockquote cite {
+	font-style: normal;
+	margin: 0.7em 0 0.2em;
+	display: block;
+}
+blockquote cite:before {
+	content: "—";
+}
+
+img {
+	max-width: 100%;
+}
+
+.video {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 30px;
+	height: 0;
+}
+.video iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+div.item-image {
+	width: 100%;
+	background-color: #fff;
+	text-align: center;
+}

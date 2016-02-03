@@ -1,0 +1,73 @@
+div.moduletable_menu {
+	width: 100%;
+	font-size: 17px;
+	font-family: 'The Serif', serif;
+	font-weight: bold;
+}
+
+div.moduletable ul.menu,
+div.moduletable_menu ul.menu {
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 0 10px;
+}
+
+div.moduletable ul.menu li,
+div.moduletable_menu ul.menu li  {
+	margin: 0;
+	padding: 0;
+	line-height: 20px;
+}
+div.moduletable ul.menu > li,
+div.moduletable_menu ul.menu > li {
+	border-bottom: 1px solid #f0f4f6;
+}
+
+div.moduletable ul.menu li a,
+div.moduletable_menu ul.menu li a {
+	display: block;
+    margin: 0;
+	padding: 10px 10px 10px 15px;
+	text-decoration: none;
+	text-shadow: none;
+    color: #003056;
+	background-image: url(../images/list_arrow.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+div.moduletable ul.menu li a:hover,
+div.moduletable_menu ul.menu li a:hover {
+    color: #b5152b;
+	text-decoration: underline;
+}
+
+div.moduletable ul.menu ul,
+div.moduletable_menu ul.menu ul{
+	display: none;
+	list-style-type: none;
+	margin: -5px 0 5px 15px;
+	font-size: 16px;
+}
+div.moduletable ul.menu li.active > ul,
+div.moduletable_menu ul.menu li.active > ul {
+	display: block;
+}
+
+div.moduletable ul.menu li ul li a,
+div.moduletable_menu ul.menu li ul li a {
+	font-weight: normal;
+	padding: 5px 5px 5px 15px;
+}
+
+div.moduletable ul.menu li.active.deeper.parent > a,
+div.moduletable_menu ul.menu li.active.deeper.parent > a {
+	color: #b5152b;
+	background-image: url(../images/list_arrow_deeper.png);
+}
+
+div.moduletable ul.menu li.active > a,
+div.moduletable_menu ul.menu li.active > a {
+	color: #b5152b;
+	background-image: url(../images/list_arrow_active.png);
+}

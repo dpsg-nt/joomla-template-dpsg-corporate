@@ -1,0 +1,124 @@
+/* Phoca download */
+.pd-filebox {
+	clear: none !important;
+}
+.pd-cb {
+	clear: right !important;
+}
+
+a[title=Download] img { display: none}
+
+/* Download */
+a[title=Download] {
+	background: #fff;
+	border: 0;
+	margin: 0.5em 0 1em 0;
+	padding: 5px 40px 5px 10px;
+	position: relative;
+	text-decoration: none;
+	display: inline-block;
+	background-image: url(../images/download.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	border-right: 5px solid transparent;
+	border-bottom: 1px solid #ccd6dd;
+}
+a[title=Download] strong {
+	font-weight: normal;
+}
+a[title=Download]:hover strong {
+	text-decoration: underline;
+}
+
+
+/*Slider*/
+.djslider-loader {
+  position: relative;
+  float: left;
+  margin-bottom: 20px !important;
+  width: 100% !important;
+  
+}
+div#main_top .djslider {
+    position: relative;
+    float: left;
+    width: 100% !important;
+  	max-width: 100% !important;
+  height: auto !important;
+  
+}
+div#main_top .djslider .navigation-container-custom {
+  float: left;
+  position: relative !important;
+    right: 0 !important;
+  top: 0 !important;
+  width: 100%;
+}
+div#main_top .djslider .slider-container {
+  float: left;
+  position: relative !important;
+  border: 10px solid white;
+  	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 0px 5px 0px #ccc;
+  -moz-box-shadow: 0px 0px 5px 0px #ccc;
+  box-shadow: 0px 0px 5px 0px #ccc;
+}
+div#main_top .djslider .slider-container ul li {
+  height: auto !important;
+}
+div#main_top .djslider .slider-container ul li .slide-desc{
+	top: 40%;
+	left: 5%;
+}
+
+div#main_top .djslider .slider-container ul li .slide-desc-text {
+  margin: 16.8px 0 16.8px 0;
+  background: rgba(255,255,255,0.7);
+  position: absolute;
+}
+div#main_top .djslider .slider-container ul li .slide-desc-text,
+div#main_top .djslider .slider-container ul li .slide-desc-text a {
+  text-decoration: none;
+  color: #003056;
+   font-weight: normal;
+  font-size: 33.6px;
+}
+div#main_top .djslider .slider-container ul li .slide-desc-text a:hover, {
+  text-decoration: underline;  
+}
+
+
+div#main_top .djslider .navigation-container-custom ul {
+	text-align: center;
+	width: 100%;
+}
+div#main_top .djslider .navigation-container-custom ul li.load-button {
+  float: none;
+  display: inline-block;
+  position: relative !important;
+  width: auto;
+  margin: 0.2em auto;
+  padding: 5px 14px;
+}
+div#main_top .djslider .navigation-container-custom ul li.load-button a {
+  padding: 5px 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 20px;
+  color: #003056;
+  font-weight: normal;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+div#main_top .djslider .navigation-container-custom ul li.load-button:hover a{
+	text-decoration: underline;
+}
+div#main_top .djslider .navigation-container-custom ul li.load-button-active a {
+  color: #b5152b;
+}
+
+
+

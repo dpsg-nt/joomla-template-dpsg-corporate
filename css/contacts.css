@@ -1,0 +1,130 @@
+.contact-category .filters {
+	display: none;
+}
+
+.contact-category {
+	padding: 0;
+	margin: 0;
+}
+
+.contact-category ul {
+	padding: 0;
+	margin: 0.3em 0;
+}
+
+.contact-category ul li {
+	padding: 0;
+	margin: 8px 0;
+    background: #fff;
+    border-bottom: 1px solid #ccd6dd;
+    border-right: 1px solid #e5eaee;
+    padding: 10px;
+    position: relative;
+	list-style-type: none;
+	float: left;
+	width: 40%;
+	margin-right: 22.27px;
+	height: 130px;
+}
+
+.contact-category ul.category li span,
+.contact-category ul.category li p {
+	float: left;
+	clear: both;
+	margin: 0;
+}
+
+.contact-category p.item-position { /*h6*/
+	margin: 0 0 5px 0;
+	color: #003056;
+	font-family: "The Serif", serif;
+	font-size: 17.6px;
+	font-weight: normal;
+	margin: 0 0 5px 0;
+}
+.contact-category p.item-title a { /*h5*/
+	line-height: 120%;
+	color: #003056;
+	font-family: "The Serif", serif;
+	font-size: 17.6px;
+	font-weight: bold;
+	margin: 0 0 5px 0;
+	text-decoration: none;
+}
+.contact-category p.item-phone, /* Adress */
+.contact-category p.item-email,
+.contact-category p.item-email a,
+.contact-category p.item-suburb,
+.contact-category p.item-state {
+	line-height: 20px;
+}
+
+/*Contact-Form*/
+.contact dl {
+	background: white;
+	padding: 10px;
+	float: left;
+	min-width: 300px;
+}
+.contact dl.contact-address {
+	margin-bottom: 20px;
+}
+.contact span.jicons-icons {
+	display: none;
+}
+
+.contact .contact-form strong {
+	margin-bottom: 10px;
+	float: left;
+	font-size: 1.4em;
+}
+.contact-position,
+.contact-address {
+	clear: both;
+	padding: 0;
+}
+.contact .contact-form {
+	background: white;
+	padding: 10px;
+	float: left;
+	clear: both;
+}
+.contact .contact-form img{
+	display: none;
+}
+.contact .contact-form fieldset,
+.contact .contact-form fieldset label,
+.contact .contact-form fieldset input,
+.contact .contact-form button {
+	float: left;
+	clear: both;
+}
+.contact .contact-form fieldset legend{
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+.contact .contact-form fieldset label{
+	display: inline-block;
+	margin-bottom: 5px;
+	line-height: 24px;
+}
+.contact .contact-form .control-group fieldset label{
+	display: inline-block;
+}
+
+input#jform_contact_email_copy,
+input#jform_contact_email_copy:active,
+input#jform_contact_email_copy:focus {
+	height: 20px;
+	width: 20px;
+	box-shadow: none;
+	clear: none;
+	margin-left: 10px;
+}
+
+button,
+input[type=submit] {
+	padding: 3px 10px;
+	color: #1a1a1a;
+	font-size: 16px;
+}

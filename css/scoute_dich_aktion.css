@@ -1,0 +1,118 @@
+
+
+div.sda_landingpage div.image {
+	margin: auto;
+	width: 200px;
+	height: 200px;
+}
+
+div.sda_landingpage {
+	text-align: center;
+	height: 300px;
+}
+
+
+div.sda_landingpage .text a {
+	font-size: 35px;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	color: #002c58;
+}
+
+div.sda_landingpage .text a:hover,
+div.sda_landingpage .text.hovering {
+	text-shadow: #cb8000 0px 0px 10px;
+}
+
+
+div.sda_top {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 30px;
+}
+div.sda_top img {
+	margin: 0 25px 0 25px;
+	padding: 0px;
+	width: 128px;
+	border: 2px solid #ffffff;
+	box-shadow: 0px 0px 5px 0px #ccc;
+}
+
+div.sda_menu {
+	width: 200px;
+	float: left;
+	height: 300px;
+	overflow: auto;
+	margin-right: 30px;
+}
+	
+div.sda_middle {
+	width: 600px;
+	margin: 0;
+	float: left;
+	margin-right: 50px;
+	min-height: 400px;
+	text-align: top;
+}
+
+div.sda_images {
+	width: 100%;
+	background: white;
+	overflow: hidden;
+	height: 100px;
+	text-align: center;
+	border: 10px solid white;
+	box-shadow: 0px 0px 5px 0px #ccc;
+}
+
+
+ul.sda_menu {
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.sda_menu li {
+	background-color: #003056;
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 5px;
+}
+
+ul.sda_menu li a {
+	color: white;
+	display: block;
+	float: left;
+	font-family: "The Serif", serif;
+	font-size: 1.1em;
+	font-size-adjust: none;
+	font-stretch: normal;
+	font-style: normal;
+	letter-spacing: 0;
+	line-height: 2.2;
+	padding: 5px 0px;
+	text-align: center;
+	text-decoration: none;
+	width: 200px;
+}
+
+ul.sda_menu li a:focus,
+ul.sda_menu li a:hover,
+ul.sda_menu li a:active {
+	background-position: 0% 0%;
+	background-image: url(../images/sidemenuitem_hover.png);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: right center;
+}
+
+.formlabel {
+	float: left;
+	width: 150px;
+}

@@ -1,0 +1,144 @@
+div#container_footer {
+	width:100%;
+	height:320px;
+	position:relative;
+	left:0;
+	background: #f0f4f6;
+	margin: 0;
+	padding: 0;
+}
+
+div#container_footer #footerbg {
+	width: 100%;
+	height: 320px;
+	position: a;
+	background-image: url(../images/bgFooterRasen.png);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+
+div#container_footer #footerbg_center {
+	height: 320px;
+	background-image: url(../images/bgFooter.png);
+	background-repeat: no-repeat;
+	background-position: bottom left;
+}
+
+div#container_footer div#footer {
+	position: relative;
+	padding: 0;
+	margin: auto;
+	margin-top: -320px;
+}
+
+div#footer div#bottomline {
+	height: 320px;
+	position: relative;
+}
+
+div#footer div#sponsors {
+	float: right;
+	margin: 0;
+	margin-right: 20px;
+}
+
+/* Social menu */
+
+div#footer div#social {
+	float: left;
+	bottom: 120px;
+	position: absolute;
+}
+
+div#footer div#social li {
+	margin: 0;
+	padding: 0;
+	display: block;
+	float: right;
+	margin-right: 10px;
+}
+div#footer div#social li a {
+	margin: 0;
+	padding: 0;
+	display: block;
+	float: left;
+	font-size: 12px;
+	text-align: center;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+}
+div#footer div#social li a img {
+	background: none;
+	float: left;
+}
+div#footer div#social li:hover a img {
+	height: 60px;
+	margin-left: 4px;
+}
+div#footer div#social li a span {
+	text-align: center;
+	width: 100%;
+	float: left;
+	clear: both;
+}
+div#footer div#social li:hover a {
+	text-decoration: underline;
+}
+
+/* Bottom menu */
+div#footer #bottom_menu {
+	position: relative;
+	float: right;
+	margin: 0;
+	padding: 0;
+	margin-right: 0px;
+}
+
+div#footer #bottom_menu ul {
+	margin: 0;
+	padding: 0;
+}
+
+div#footer #bottom_menu ul li {
+	list-style-type: none;
+	margin: 5.6px 0px;
+}
+
+div#footer #bottom_menu ul li a {
+	font-size: 15px;
+    line-height: 23px;
+	font-weight: normal;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #003056;
+	text-decoration: none;
+	display: block;
+	padding: 5px 10px;
+	border: 1px solid #ccd6dd;
+	background: #ffffff;
+
+
+}
+
+div#footer #bottom_menu ul li a:hover {
+    color: #fff;
+    text-decoration: none;
+    background: #4c6e88;
+    border-color: #fff;	
+}
+
+div#footer .footer_close {
+	color: #fff;
+	position: absolute;
+	float: left;
+	clear: both;
+	bottom: 10px;
+	font-size: 10px;
+	line-height: 20px;
+}
+div#footer .footer_close div {
+	display: inline-block;
+}
+div#footer .footer_close a {
+	color: #fff;
+}

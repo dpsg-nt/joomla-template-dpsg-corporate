@@ -1,0 +1,191 @@
+#gsHeader,
+#gsNavBar .gbSystemLinks,
+#gsFooter {
+	display: none;
+}
+#gsContent > .gbBlock:first-child {
+	display: none;
+}
+#gsContent .giInfo {
+    position: absolute;
+    top: -28.4px;
+    background: white;
+	width: 100%;
+	transition: top 0.2s ease-out;
+}
+#gsContent .giInfo > * {
+    display: none;
+	margin: 5px;
+}
+#gsContent .giInfo .date {
+    display: block;
+}
+#gsContent .giAlbumCell:hover .giInfo {
+	top: 0px;
+}
+
+#gsContent .block-exif-ExifInfo {
+	display: none;
+}
+#gsContent .giItemCell .giTitle {
+	display: none;
+}
+
+#gsThumbMatrix {
+	width: 100%;
+}
+#gsContent img {
+	max-width: 100%;
+	height: auto;
+	width: 100%;
+}
+
+#gsContent .giAlbumCell,
+#gsContent .giAlbumCell table,
+#gsContent .giItemCell,
+#gsContent .giItemCell table  {
+	text-align: center;
+	margin: auto;
+	width: 100%;
+}
+
+.block-core-BreadCrumb {
+	background-color: #fff;
+	box-shadow: 0px 3px 3px #ddd;
+	padding: 5px;
+}
+
+.block-core-BreadCrumb a {
+	color: #000;
+	text-decoration: none;
+}
+
+.block-core-BreadCrumb  a::after {
+	content: " \25B6";
+}
+
+#gsThumbMatrix {
+	border-spacing: 0;
+}
+
+#gsThumbMatrix .IMG {
+	width: 100%;
+}
+
+.giAlbumCell,
+.giItemCell {
+	background-color: #fff;
+	box-shadow: 0px 0px 5px 0px #ccc;
+	margin: 10px;
+	/*padding: 5px;*/
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+
+.gbNavigator a,
+.block-core-Pager a {
+	padding: 5px;
+	color: #000;
+}
+.next-and-last {
+	float: right;
+	padding-top: 3px;
+}
+.first-and-previous {
+	float: left;
+	padding-top: 3px;
+}
+.gbNavigator a[name="imageBelow"] {
+	display: none;
+}
+.block-core-Navigator {
+	clear: both;
+	height: 25px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #fff;
+	box-shadow: 0px 0px 5px 0px #ccc;
+}
+
+#gsContent .block-core-ItemLinks {
+	clear: both;
+	height: 25px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #fff;
+	box-shadow: 0px 0px 5px 0px #ccc;
+	text-align: center;
+	line-height: 25px;
+}
+
+/*Height-fix for navigator*/
+.gbNavigator {
+}
+.block-core-Pager {
+	text-align: center;
+	background-color: #fff;
+	width: 100%;
+	box-shadow: 0px 0px 5px 0px #ccc;
+}
+
+#gsImageView > table {
+	margin: auto;
+}
+
+#gsImageView {
+	padding: 5px;
+	background-color: #fff;
+	box-shadow: 0px 0px 5px 0px #ccc;
+}
+
+/* Crop the images at the category-view */
+td.giAlbumCell td.IMG a {
+    display: block;
+    max-height: 8em;
+    overflow: hidden;
+}
+
+/* Destroy the ugly 'margins'*/
+.LL, .RR, .LLT, .RRT, .BL, .BBL, .BB, .BR {
+    display: none;
+}
+
+/* Crop the category title */
+td.giAlbumCell p {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+	margin: 5px;
+}
+
+#gsContent td.giAlbumCell,
+#gsContent td.giItemCell {
+	margin-bottom: 20px;
+	width: 32% !important;
+	margin-right: 2%;
+}
+#gsContent td.giAlbumCell + td + td,
+#gsContent td.giItemCell + td + td  { /*Remove the margin at the right column.*/
+	margin-right: 0%;
+}
+
+/* Crop the images at the thumb-view */
+td.giItemCell td.IMG a {
+    display: block;
+    max-height: 11em;
+    overflow: hidden;
+}
+.gsThumbMatrix {
+	margin-right: -2%;
+}
+
+
+/* Remove all table borders */
+div#gallery table {
+	border-collapse: collapse;
+	margin-top: 10px;
+}
+
+
+
