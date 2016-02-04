@@ -43,17 +43,17 @@ Tabellen mit alternierenden Farben können mittels CSS-Klasse im Table-Tag erzeu
 - Sinnvolle "Weiterlesen" Position muss festgelegt sein (davor max. ein Bild und am besten keine Tabellen)
 - Beiträge sollten ein "Einleitungsbild" und "Beitragsbild" bekommen. Andere Bilder nur einfügen, wenn‘s sein muss (und danach schauen, ob die Darstellung passt)
 - Bilder in Beiträgen: ``<img src="..." alt="..." style="margin-right:10px;">``
--- Bildernamen dürfen keine Umlaute enthalten
--- Bilder müssen in den richtigen Ordner abgelegt werden
---- kategorien (Kategorie-Bilder) – Benennung: xxxx_cat.jpg
---- artikel (Beitragsbilder) – Benennung: xxxx_intro.jpg / xxxx_full.jpg
---- infoartikel (Beitragsbilder für Infoseiten) – Benennung: xxxx_intro.jpg / xxxx_full.jpg
---- System (Sonstige, z.B. für Banner oder Menüs)
--- Bildqualität sollte auf 90% festgelegt sein
--- Bild sollte progressiv gepackt sein
--- Bildgrößen: (Zuschneiden geht gut mit Paint.NET)
---- Einleitungsbild (zwei-spaltig): 420x280px
---- Beitragsbild 860x300px
---- Kategorie-Bild: 420x280px
---- Alle anderen nicht über 860px breit
---- Slider-Bilder: 1150x410px (muss genau sein!)
+  - Bildernamen dürfen keine Umlaute enthalten
+  - Bilder müssen in den richtigen Ordner abgelegt werden
+    - kategorien (Kategorie-Bilder) – Benennung: xxxx_cat.jpg
+    - artikel (Beitragsbilder) – Benennung: xxxx_intro.jpg / xxxx_full.jpg
+    - infoartikel (Beitragsbilder für Infoseiten) – Benennung: xxxx_intro.jpg / xxxx_full.jpg
+    - System (Sonstige, z.B. für Banner oder Menüs)
+  - Bildqualität sollte auf 90% festgelegt sein
+  - Bild sollte progressiv gepackt sein
+  - Bildgrößen: (Zuschneiden geht gut mit Paint.NET)
+    - Einleitungsbild (zwei-spaltig): 420x280px
+    - Beitragsbild 860x300px
+    - Kategorie-Bild: 420x280px
+    - Alle anderen nicht über 860px breit
+    - Slider-Bilder: 1150x410px (muss genau sein!)
