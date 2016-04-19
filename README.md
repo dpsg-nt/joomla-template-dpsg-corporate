@@ -26,7 +26,7 @@ The following documentation is in German as the template is targeted on a German
 
 Tabellen mit alternierenden Farben können mittels CSS-Klasse im Table-Tag erzeugt werden. Dazu muss die CSS-Klasse ``colored`` gesetzt werden.
 ```html
-<table class=“colored“>
+<table class="colored">
 	<tr>...</tr>
 </table>
 ```
