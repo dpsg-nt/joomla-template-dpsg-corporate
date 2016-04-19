@@ -32,7 +32,7 @@ $templateparams	= $app->getTemplate(true)->params;
 
 	<script type="text/javascript">
 		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-1989323-1']);
+		_gaq.push(['_setAccount', '<?php echo htmlspecialchars($templateparams->get('ga_code'));?>']);
 		_gaq.push(['_trackPageview']);
 
 		(function() {

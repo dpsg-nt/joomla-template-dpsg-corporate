@@ -45,10 +45,8 @@
 	<config>
 		<fields name="params">
 			<fieldset name="advanced">
-				<field name="sitetitle"  type="text" default=""
-					label="Seitentitel"
-					description="Bitte hier den Stammesnamen eingeben"
-					filter="string" />
+				<field name="sitetitle" type="text" default="" label="Seitentitel" description="Bitte hier den Stammesnamen eingeben" filter="string" />
+				<field name="ga_code" type="text" default="" label="Google Analytics Code" description="Bitte hier den Google Analytics GA-Code eingeben" filter="string" />
 			</fieldset>
 		</fields>
 	</config>
