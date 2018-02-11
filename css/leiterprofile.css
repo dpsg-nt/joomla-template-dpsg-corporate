@@ -1,7 +1,11 @@
+div.profile_category {
+	float: left;
+	clear: both;
+}
+
 div#profile {
 	float:left;
-	margin: 10px; 
-	margin-left:0;
+	margin: 0 10px 10px 0; 
 	text-align: left;
 	width:200px; 
 	padding:5px;
@@ -11,7 +15,6 @@ div#profile {
 div#profile p {
 	display: block;
 	margin: 0;
-	color:#000000;
 	float: left;
 	font-size: 17.6px;
 	color: #003056;
@@ -19,10 +22,14 @@ div#profile p {
 	font-family: "The Serif", serif;
 	padding: 0 5px;
 }
+
+div#profile p.name {
+	margin-bottom: 5px;
+}
+
 div#profile p.position {
 	font-weight: 300;
 	clear: both;
-	margin-bottom: 10px;
 	font-size: 14px;
 }
 
