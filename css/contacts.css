@@ -92,13 +92,6 @@
 .contact .contact-form img{
 	display: none;
 }
-.contact .contact-form fieldset,
-.contact .contact-form fieldset label,
-.contact .contact-form fieldset input,
-.contact .contact-form button {
-	float: left;
-	clear: both;
-}
 .contact .contact-form fieldset legend{
 	font-size: 16px;
 	margin-bottom: 5px;
