@@ -172,9 +172,10 @@ div#nav input#query_input {
 	margin: 0.25em 0 0.25em 0;
 }
 
-.ico-search,
+.icon-search,
 div#nav input#search_button {
 	line-height: 20px;
+	font-size: 20px;
 	overflow: auto;
 	height: 20px;
 	width: 20px;
@@ -191,21 +192,3 @@ div#nav input#search_button {
 	opacity: 0;
 	position: relative;	
 }
-
-.ico-search:before {
-	font-family: 'icomoon';
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 20px;
-	-webkit-font-smoothing: antialiased;
-	content: "\67";
-}
-.ico-search:before:hover {
-	color: #b5152b;
-}
-
-
-

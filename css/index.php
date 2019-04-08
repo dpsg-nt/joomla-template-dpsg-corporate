@@ -12,6 +12,7 @@ $file_array = Array(
 	'main.css',
 	'footer.css',
 	'fonts.css',
+	'icomoon.css',
 	'joomla.css',
 	'kalender.css',
 	'plugin_fixes.css',

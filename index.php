@@ -70,7 +70,7 @@ $templateparams	= $app->getTemplate(true)->params;
 						<fieldset>
 							<legend>Volltextsuche</legend>
 							<input type="text" name="searchword" id="query_input" size="25" value="" />
-							<span class="ico-search"></span>
+							<span class="icon-search"></span>
 							<input type="image" id="search_button" value="g"  />
 							<input type="hidden" name="option" value="com_search" />
 						</fieldset>
